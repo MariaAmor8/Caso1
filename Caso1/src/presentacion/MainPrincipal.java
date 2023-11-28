@@ -49,8 +49,8 @@ public class MainPrincipal extends JFrame{
 	}
 
 	protected void mostrarResultado() {
-		String nombre = this.lblnombre.getText();
-		String apellido = this.lblApellido.getText();
+		String nombre = this.txtNombre.getText();
+		String apellido = this.txtApellido.getText();
 		JOptionPane.showMessageDialog(this, "Su nombre es: "+nombre+"\n y su apellido: "+apellido);
 	}
 
